@@ -8,6 +8,8 @@ Assuming that no auth is used.
 ### Part 1
 #### /api/token
 * Get the JWT token. Username, password and secret has been hardcoded in ./config/index.js
+  * Plain Text User: johndoe
+  * Plan Text Password: Supp0rt
 #### /api/about
 * Returns 200 "Hello world" if valid JWT token. Return 401 if no valid access token
 
