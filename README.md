@@ -9,7 +9,7 @@ Assuming that no auth is used.
 #### /api/token
 * Get the JWT token. Username, password and secret has been hardcoded in ./config/index.js
 #### /api/about
-* Returns 200 "Hello world" if valid. Return 401 if no valid access token
+* Returns 200 "Hello world" if valid JWT token. Return 401 if no valid access token
 
 Middleware
 #### /api/salt 
